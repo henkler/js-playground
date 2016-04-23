@@ -1,0 +1,72 @@
+#status {
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+#board {
+  border-radius: 10px;
+  background-color: #eee;
+}
+
+.square {
+  height: 195px;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.player1Options {
+  background-color: #99ff99;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.player1 {
+  background-color: #99ff99;
+}
+
+.player2Options {
+  background-color: #ff5050;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+}
+.player2 {
+  background-color: #ff5050;
+}
+
+#pos_0 {
+  border-top-style: none;
+  border-left-style: none;
+}
+
+#pos_1 {
+  border-top-style: none;
+}
+
+#pos_2 {
+  border-top-style: none;
+  border-right-style: none;
+}
+
+#pos_3 {
+  border-left-style: none;
+}
+
+#pos_5 {
+  border-right-style: none;
+}
+
+#pos_6 {
+  border-bottom-style: none;
+  border-left-style: none;
+}
+
+#pos_7 {
+  border-bottom-style: none;
+}
+
+#pos_8 {
+  border-bottom-style: none;
+  border-right-style: none;
+}

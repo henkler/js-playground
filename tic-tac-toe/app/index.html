@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet prefetch" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet prefetch" href="//gitcdn.github.io/bootstrap-toggle/2.2.0/css/bootstrap-toggle.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="container">
+	  <div class="jumbotron">
+	    <h1>Tic Tac Toe Forever!</h1>
+	    <ul>
+	      <li>AI support for either player</li>
+	      <li>AI levels from child (random play) to master (never loses)</li>
+	      <li>Bot vs Bot - Set both players to non human!</li>
+	      <li>AI pretends to think! Delay timer on AI play</li>
+	      <li>Code uses Wikipedia Tic Tac Toe strategy for AI. Plays like a unbeatable human!</li>
+	      <li>Code broken into classes for Player, Game, and Board</li>
+	    </ul>
+	    <div class="row">
+	      <div class="col-xs-6 text-center">
+	        <div class="player1Options">
+	          <h3>Player 1</h3>
+	          <div class="checkbox">
+	            <label>
+	              <input type="checkbox" id="player1Human" checked data-toggle="toggle">Human
+	            </label>
+	          </div>
+	          <div id="player1Level">
+	            <div class="radio-inline">
+	              <label>
+	                <input type="radio" name="player1Level" value="0">Child
+	              </label>
+	            </div>
+	            <div class="radio-inline">
+	              <label>
+	                <input type="radio" name="player1Level" value="1">Novice
+	              </label>
+	            </div>
+	            <div class="radio-inline">
+	              <label>
+	                <input type="radio" name="player1Level" value="2">Expert
+	              </label>
+	            </div>
+	            <div class="radio-inline">
+	              <label>
+	                <input type="radio" name="player1Level" value="3" checked>Master
+	              </label>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+
+	      <div class="col-xs-6 text-center">
+	        <div class="player2Options">
+	          <h3>Player 2</h3>
+	          <div class="checkbox">
+	            <label>
+	              <input type="checkbox" id="player2Human" checked data-toggle="toggle">Human
+	            </label>
+	          </div>
+	          <div id="player2Level">
+	            <div class="radio-inline">
+	              <label>
+	                <input type="radio" name="player2Level" value="0">Child
+	              </label>
+	            </div>
+	            <div class="radio-inline">
+	              <label>
+	                <input type="radio" name="player2Level" value="1">Novice
+	              </label>
+	            </div>
+	            <div class="radio-inline">
+	              <label>
+	                <input type="radio" name="player2Level" value="2">Expert
+	              </label>
+	            </div>
+	            <div class="radio-inline">
+	              <label>
+	                <input type="radio" name="player2Level" value="3" checked>Master
+	              </label>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="row">
+	    <div class="col-xs-12 col-md-6 col-md-offset-3" id="board">
+	      <h1 id="status" class="text-center"></h1>
+	      <div class="row">
+	        <div id="pos_0" class="col-xs-4 square" data-position="0"></div>
+	        <div id="pos_1" class="col-xs-4 square" data-position="1"></div>
+	        <div id="pos_2" class="col-xs-4 square" data-position="2"></div>
+	      </div>
+	      <div class="row">
+	        <div id="pos_3" class="col-xs-4 square" data-position="3"></div>
+	        <div id="pos_4" class="col-xs-4 square" data-position="4"></div>
+	        <div id="pos_5" class="col-xs-4 square" data-position="5"></div>
+	      </div>
+	      <div class="row">
+	        <div id="pos_6" class="col-xs-4 square" data-position="6"></div>
+	        <div id="pos_7" class="col-xs-4 square" data-position="7"></div>
+	        <div id="pos_8" class="col-xs-4 square" data-position="8"></div>
+	      </div>
+	      <h1><br></h1>
+	    </div>
+	  </div>
+	  <div class="row">
+	    <div class="col-xs-12 text-center">
+	        <button type="button" class="btn btn-danger btn-lg" id="reset-button">Reset</button>
+	    </div>
+	  </div>
+	</div>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="//gitcdn.github.io/bootstrap-toggle/2.2.0/js/bootstrap-toggle.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
