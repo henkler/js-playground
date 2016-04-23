@@ -1,0 +1,35 @@
+body {
+  background-color: #CCC;
+}
+
+.row {
+  margin-top: 10px;
+}
+
+.article {
+  margin-bottom: 10px;
+  background-color: #FFF;
+  border-radius:10px;
+  overflow: hidden;
+}
+
+.article a {
+  text-decoration: none;
+  color: #AAA;
+}
+
+.article h2 {
+  font-size: 2em;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+}
+
+.article p {
+  padding: 5px;
+  border-top: 1px solid #CCC;
+}
+
+.article img {
+  width: 100%;
+}
