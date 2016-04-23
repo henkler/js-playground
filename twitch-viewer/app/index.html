@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Twitch Viewer</title>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet prefetch" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="container-fluid">
+	  <div class="jumbotron">
+	    <h1>Twitch Status</h1>
+	    <button id="all-button" class="btn btn-info" type="button">All Streamers</button>
+	    <button id="online-button" class="btn btn-success" type="button">Online</button>
+	    <button id="offline-button" class="btn btn-default" type="button">Offline</button>
+	    <button id="closed-button" class="btn btn-danger" type="button">Closed</button>
+	  </div>
+	  <div class="row">
+	    <div class="col-xs-12 col-md-6 col-md-offset-3">
+	      <div id="streamer-table">
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
