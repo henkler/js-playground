@@ -1,0 +1,38 @@
+body {
+  background-color: #CCC;
+}
+
+.grid-item {
+  width: 240px;
+  margin-bottom: 10px;
+  background-color: #FFF;
+  border-radius:10px;
+  overflow:hidden;
+}
+
+.grid-item--width-2 {
+  width: 480px;
+}
+
+.grid-item a {
+  text-decoration: none;
+  color: #AAA;
+}
+
+.grid-item h2 {
+  font-size: 2em;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+}
+
+.grid-item img {
+  width: 100%;
+  border-bottom: 1px solid #CCC;
+}
+
+.author-profile {
+  text-align: right;
+  font-size: 1.2em;
+  margin: 5px;
+}
