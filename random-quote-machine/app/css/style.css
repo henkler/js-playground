@@ -1,0 +1,15 @@
+#author {
+  font-style: italic;
+}
+
+#quote {
+  font-size: 1.5em;
+}
+
+#author {
+  text-align: right;
+}
+
+.jumbotron h1 {
+  font-variant: small-caps;
+}
