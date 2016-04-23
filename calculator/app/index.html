@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Javascript Calculator</title>
+	<link rel="stylesheet prefetch" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="container">
+	  <div class="row">
+	    <div class="col-xs-12">
+	      <div class="panel panel-default">
+	        <div class="panel-heading"><h1>Super JavaScript Calculator</h1></div>
+	        <div class="panel-body">
+	          <ul>
+	            <li>Keyboard Support! Type away! Enter key is equals button</li>
+	            <li>Full floating point arithmetic</li>
+	            <li>Handles NaN and Infinity</li>
+	            <li>Negative number toggle</li>
+	            <li>Operator history</li>
+	            <li>Clear history (CE) and clear input (C) support</li>
+	            <li>Equal button carries operator through multiple presses</li>
+	            <li>It may be ugly, but it works like a real calculator</li>
+	          </ul>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="row">
+	    <div id="keypad" class="col-md-6 col-md-offset-3 col-xs-12">
+	      <div class="row" id="calc_display">
+	        <div class="col-xs-12">
+	          <p id="history"></p>
+	          <p id="result"></p>
+	        </div>
+	      </div>
+	      <div class="row">
+	        <div class="col-xs-3">
+	          <button type="button" class="btn btn-default">CE</button>
+	        </div>
+	        <div class="col-xs-3">
+	          <button type="button" class="btn btn-default">C</button>
+	        </div>
+	        <div class="col-xs-3">
+	          <button type="button" class="btn btn-default"></button>
+	        </div>
+	        <div class="col-xs-3">
+	          <button type="button" class="btn btn-default">/</button>
+	        </div>
+	      </div>
+	      <div class="row">
+	        <div class="col-xs-3">
+	          <button type="button" class="btn btn-default">7</button>
+	        </div>
+	        <div class="col-xs-3">
+	          <button type="button" class="btn btn-default">8</button>
+	        </div>
+	        <div class="col-xs-3">
+	          <button type="button" class="btn btn-default">9</button>
+	        </div>
+	        <div class="col-xs-3">
+	          <button type="button" class="btn btn-default">*</button>
+	        </div>
+	      </div>
+	      <div class="row">
+	        <div class="col-xs-3">
+	          <button type="button" class="btn btn-default">4</button>
+	        </div>
+	        <div class="col-xs-3">
+	          <button type="button" class="btn btn-default">5</button>
+	        </div>
+	        <div class="col-xs-3">
+	          <button type="button" class="btn btn-default">6</button>
+	        </div>
+	        <div class="col-xs-3">
+	          <button type="button" class="btn btn-default">-</button>
+	        </div>
+	      </div>
+	      <div class="row">
+	        <div class="col-xs-3">
+	          <button type="button" class="btn btn-default">1</button>
+	        </div>
+	        <div class="col-xs-3">
+	          <button type="button" class="btn btn-default">2</button>
+	        </div>
+	        <div class="col-xs-3">
+	          <button type="button" class="btn btn-default">3</button>
+	        </div>
+	        <div class="col-xs-3">
+	          <button type="button" class="btn btn-default">+</button>
+	        </div>
+	      </div>
+	      <div class="row">
+	        <div class="col-xs-3">
+	          <button type="button" class="btn btn-default">+/-</button>
+	        </div>
+	        <div class="col-xs-3">
+	          <button type="button" class="btn btn-default">0</button>
+	        </div>
+	        <div class="col-xs-3">
+	          <button type="button" class="btn btn-default">.</button>
+	        </div>
+	        <div class="col-xs-3">
+	          <button type="button" class="btn btn-default">=</button>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
